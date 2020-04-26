@@ -11,10 +11,10 @@ namespace ISensor.WebAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class HomeController : ControllerBase
+    public class SensorController : ControllerBase
     {
         public readonly DataContext _context;
-        public HomeController(DataContext context)
+        public SensorController(DataContext context)
         {
             _context = context;
         }
